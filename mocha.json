@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2015-08-26T20:30:05.356Z",
+    "end": "2015-08-26T20:30:05.360Z",
+    "duration": 4
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return 2",
+      "fullTitle": "onePlusOne() should return 2",
+      "duration": 0
+    }
+  ],
+  "skipped": []
+}

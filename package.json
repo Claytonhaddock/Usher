@@ -1,0 +1,46 @@
+{
+  "name": "cnvr_usher",
+  "version": "1.0.4",
+  "description": "Client Dev Build assistant",
+  "main": "gulpfile.js",
+  "bin": {
+    "usher": "bin/usher.js"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "mocha test",
+    "test-bamboo": "mocha -R mocha-bamboo-reporter test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "http://git.dotomi.com/projects/CTAPPS/repos/usher.git"
+  // },
+  "dependencies": {
+    "fs-extra": "1.0.0",
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "jshint": "2.9.4",
+    "piwik": "^1.0.8",
+    "gulp-jshint": "2.0.4",
+    "gulp-minify": "0.0.14",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "jshint-stylish": "2.2.1",
+    "run-sequence": "^1.2.2",
+    "shelljs": "^0.7.6",
+    "klaw-sync":"1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "mocha-bamboo-reporter": "^1.1.0",
+    "sinon": "^1.16.1"
+
+    },
+  "author": "Clay Haddock",
+  "license": "ISC"
+}
